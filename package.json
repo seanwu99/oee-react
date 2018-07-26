@@ -1,0 +1,43 @@
+{
+  "name": "oee-react",
+  "version": "1.0.0",
+  "description": "[![Platforms](https://img.shields.io/redmine/plugin/stars/redmine_xlsx_format_issue_exporter.svg)](https://seanwu99.github.io/)\r [![License](http://img.shields.io/:license-mit-blue.svg)](http://opensource.org/licenses/MIT)",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "nodemon src/server/index.js",
+    "webpack": "./node_modules/.bin/webpack -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seanwu99/oee-react"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seanwu99/oee-react/issues"
+  },
+  "homepage": "https://github.com/seanwu99/oee-react#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "nodemon": "^1.17.5",
+    "npm": "^6.2.0",
+    "opn": "^5.3.0",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "chai": "^4.1.2",
+    "css-loader": "^0.28.11",
+    "enzyme": "^3.3.0",
+    "mocha": "^5.2.0",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.12.0",
+    "webpack-cli": "^3.0.3"
+  }
+}
